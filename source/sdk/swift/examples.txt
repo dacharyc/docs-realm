@@ -1,41 +1,43 @@
-==========================
-Usage Examples - Swift SDK
-==========================
+========================
+Usage Examples - iOS SDK
+========================
 
 .. toctree::
    :titlesonly:
    
-   Define a Realm Object Schema </sdk/swift/examples/define-a-realm-object-model>
-   Configure & Open a Realm </sdk/swift/examples/configure-and-open-a-realm>
-   Read & Write Data </sdk/swift/examples/read-and-write-data>
-   Filter Data </sdk/swift/examples/filter-data>
-   React to Changes </sdk/swift/examples/react-to-changes>
-   Modify an Object Schema </sdk/swift/examples/modify-an-object-schema>
-   Connect to a MongoDB Realm Backend App </sdk/swift/examples/connect-to-a-mongodb-realm-backend-app>
-   Work with Users </sdk/swift/examples/work-with-users>
-   Sync Changes Between Devices </sdk/swift/examples/sync-changes-between-devices>
-   SwiftUI Guide </sdk/swift/examples/swiftui-guide>
-   Legacy Realm Sync Open Methods </sdk/swift/examples/sync-realm-open-legacy>
-   Call a Function </sdk/swift/examples/call-a-function>
-   Create & Manage User API Keys </sdk/swift/examples/manage-user-api-keys>
-   Query MongoDB </sdk/swift/examples/mongodb-remote-access>
+   Define a Realm Object Schema </sdk/ios/examples/define-a-realm-object-model>
+   Configure & Open a Realm </sdk/ios/examples/configure-and-open-a-realm>
+   Read & Write Data </sdk/ios/examples/read-and-write-data>
+   Filter Data </sdk/ios/examples/filter-data>
+   React to Changes </sdk/ios/examples/react-to-changes>
+   Define and Use Projections </sdk/ios/examples/define-and-use-projections>
+   Modify an Object Schema </sdk/ios/examples/modify-an-object-schema>
+   Connect to a MongoDB Realm Backend App </sdk/ios/examples/connect-to-a-mongodb-realm-backend-app>
+   Authenticate Users </sdk/ios/examples/authenticate-users>
+   Sync Changes Between Devices </sdk/ios/examples/sync-changes-between-devices>
+   Legacy Realm Sync Open Methods </sdk/ios/examples/sync-realm-open-legacy>
+   Call a Function </sdk/ios/examples/call-a-function>
+   Manage Email/Password Users </sdk/ios/examples/manage-email-password-users>
+   Create & Manage User API Keys </sdk/ios/examples/manage-user-api-keys>
+   Query MongoDB </sdk/ios/examples/mongodb-remote-access>
 
 Realm Database (Non-Sync)
 -------------------------
 
-- :doc:`Define a Realm Object Schema </sdk/swift/examples/define-a-realm-object-model>`
-- :doc:`Configure & Open a Realm </sdk/swift/examples/configure-and-open-a-realm>`
-- :doc:`Read & Write Data </sdk/swift/examples/read-and-write-data>`
-- :doc:`Filter Data </sdk/swift/examples/filter-data>`
-- :doc:`React to Changes </sdk/swift/examples/react-to-changes>`
-- :doc:`Modify an Object Schema </sdk/swift/examples/modify-an-object-schema>`
-- :doc:`SwiftUI Guide </sdk/swift/examples/swiftui-guide>`
+- :doc:`Define a Realm Object Schema </sdk/ios/examples/define-a-realm-object-model>`
+- :doc:`Configure & Open a Realm </sdk/ios/examples/configure-and-open-a-realm>`
+- :doc:`Read & Write Data </sdk/ios/examples/read-and-write-data>`
+- :doc:`Filter Data </sdk/ios/examples/filter-data>`
+- :doc:`React to Changes </sdk/ios/examples/react-to-changes>`
+- :doc:`Define and Use Projections </sdk/ios/examples/define-and-use-projections>`
+- :doc:`Modify an Object Schema </sdk/ios/examples/modify-an-object-schema>`
 
 Application Services (Sync)
 ---------------------------
-- :doc:`Connect to a MongoDB Realm Backend App </sdk/swift/examples/connect-to-a-mongodb-realm-backend-app>`
-- :doc:`Work with Users </sdk/swift/examples/work-with-users>`
-- :doc:`Sync Changes Between Devices </sdk/swift/examples/sync-changes-between-devices>`
-- :doc:`Call a Function </sdk/swift/examples/call-a-function>`
-- :doc:`Create & Manage User API Keys </sdk/swift/examples/manage-user-api-keys>`
-- :doc:`Query MongoDB </sdk/swift/examples/mongodb-remote-access>`
+- :doc:`Connect to a MongoDB Realm Backend App </sdk/ios/examples/connect-to-a-mongodb-realm-backend-app>`
+- :doc:`Authenticate Users </sdk/ios/examples/authenticate-users>`
+- :doc:`Sync Changes Between Devices </sdk/ios/examples/sync-changes-between-devices>`
+- :doc:`Call a Function </sdk/ios/examples/call-a-function>`
+- :doc:`Manage Email/Password Users </sdk/ios/examples/manage-email-password-users>`
+- :doc:`Create & Manage User API Keys </sdk/ios/examples/manage-user-api-keys>`
+- :doc:`Query MongoDB </sdk/ios/examples/mongodb-remote-access>`
