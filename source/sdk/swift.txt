@@ -23,6 +23,10 @@ MongoDB Realm Swift SDK
    Release Notes <https://github.com/realm/realm-swift/releases>
    Additional Examples </sdk/swift/additional-examples>
 
+Use the {+service+} Swift SDK to write Swift and Objective-C mobile 
+applications. Access data stored in local {+realms+}, or work with 
+{+backend+} Functions, MongoDB Data Access, and user authentication.
+
 .. card-group::
    :style: extra-compact
    :columns: 2
@@ -80,10 +84,6 @@ MongoDB Realm Swift SDK
       
       Realm Sync Apps provide user management. Learn how to create, authenticate,
       and delete users. Add custom data to user objects.
-
-The {+service+} Swift SDK enables mobile applications to access data
-stored in local {+realms+}. Optionally, interact with {+backend+} services 
-like Functions, MongoDB Data Access, and authentication.
 
 .. seealso::
 
@@ -154,11 +154,6 @@ app development:
 - :ref:`Functions <ios-call-a-function>`: define and execute server-side logic
 - :ref:`Triggers <triggers>`: react to events or define a schedule to execute 
   automated processes
-
-Integration Guides
-------------------
-
-- :doc:`Build for tvOS </sdk/swift/integrations/tvos>`
 
 OS Support
 ----------
