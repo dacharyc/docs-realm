@@ -64,12 +64,12 @@ MongoDB Realm Swift SDK
       reduce code to create reactive UIs.
 
    .. card::
-      :headline: Seamlessly Sync Between Devices and Cloud
+      :headline: Sync Data Between Devices and Cloud
       :url: https://docs.mongodb.com/realm/sdk/swift/fundamentals/realm-sync/
       :icon: /images/icons/realm/mobile-sync.svg
       :icon-alt: Realm Mobile Sync Icon
       
-      Use Realm Sync to share changes between devices, or back up data to the
+      Use Realm Sync to share data between devices, or back up data to the
       Cloud. Let us handle network status and user management.
    
    .. card::
@@ -90,6 +90,58 @@ like Functions, MongoDB Data Access, and authentication.
    Are you looking for information about using Swift with MongoDB in a 
    backend app, command-line utility, or running on macOS or Linux? See 
    the :driver:`MongoDB Swift Driver documentation </swift>`.
+
+Get Started
+-----------
+
+.. list-table::
+   :header-rows: 1
+   :class: index-table
+
+   * - Get Started
+     - Fundamentals
+     - Examples
+     - Realm Apps Examples
+
+   * - :doc:`Install Realm for iOS, macOS, tvOS, and watchOS </sdk/swift/install>`
+
+       :doc:`Quick Start </sdk/swift/quick-start>`
+
+       :doc:`Quick Start with Sync </sdk/swift/quick-start-with-sync>`
+
+       :doc:`Quick Start with SwiftUI </sdk/swift/swiftui>`
+
+       :doc:`Upgrade from Stitch to Realm </sdk/swift/upgrade-from-stitch-to-realm>`
+   
+     - :doc:`Realms </sdk/swift/fundamentals/realms>`
+
+       :doc:`Live Queries </sdk/swift/fundamentals/live-queries>`
+
+       :doc:`Write Transactions </sdk/swift/fundamentals/write-transactions>`
+
+       :doc:`Object Models & Schemas </sdk/swift/fundamentals/object-models-and-schemas>`
+
+     - :doc:`Define a Realm Object Schema </sdk/swift/examples/define-a-realm-object-model>`
+
+       :doc:`Configure & Open a Realm </sdk/swift/examples/configure-and-open-a-realm>`
+
+       :doc:`Read & Write Data </sdk/swift/examples/read-and-write-data>`
+
+       :doc:`React to Changes </sdk/swift/examples/react-to-changes>`
+
+       :doc:`Modify an Object Schema </sdk/swift/examples/modify-an-object-schema>`
+
+     - :doc:`Connect to a Realm Backend App </sdk/swift/examples/connect-to-a-mongodb-realm-backend-app>`
+
+       :doc:`Authenticate Users </sdk/swift/examples/users/authenticate-users>`
+
+       :doc:`Sync Changes Between Devices </sdk/swift/examples/sync-changes-between-devices>`
+
+       :doc:`Call a Function </sdk/swift/examples/call-a-function>`
+
+       :doc:`Manage Email/Password Users </sdk/swift/examples/users/manage-email-password-users>`
+
+       :doc:`Query MongoDB </sdk/swift/examples/mongodb-remote-access>`
 
 App Services
 ------------
