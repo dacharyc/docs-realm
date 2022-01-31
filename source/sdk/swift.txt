@@ -24,8 +24,18 @@ MongoDB Realm Swift SDK
    Additional Examples </sdk/swift/additional-examples>
 
 Use the {+service+} Swift SDK to write Swift and Objective-C mobile 
-applications. Access data stored in local {+realms+}, or work with 
-{+backend+} Functions, MongoDB Data Access, and user authentication.
+applications. Access data stored in the free and open-source Realm Database, 
+or work with {+backend+} Functions, MongoDB Data Access, and user 
+authentication.
+
+.. seealso::
+
+   Are you looking for information about using Swift with MongoDB in a 
+   backend app, command-line utility, or running on macOS or Linux? See 
+   the :driver:`MongoDB Swift Driver documentation </swift>`.
+
+Realm Database with the Swift SDK
+---------------------------------
 
 .. card-group::
    :style: extra-compact
@@ -38,8 +48,32 @@ applications. Access data stored in local {+realms+}, or work with
       :icon-alt: Realm Mobile Icon
       
       :card-ref:`Realm Database <ios-client-quick-start>`
-      :card-ref:`Realm with Sync <ios-client-quick-start-with-sync>`
       :card-ref:`Realm + SwiftUI <ios-swiftui-quick-start>`
+
+   .. card::
+      :headline: Add the Realm Swift SDK to Your App
+      :url: https://docs.mongodb.com/realm/sdk/swift/ios-install/
+      :icon: /images/icons/realm/realm-lightning.svg
+      :icon-alt: DB Triggers Icon
+      
+      Add the Realm Swift SDK to your iOS, macOS, tvOS, or watchOS project. 
+
+   .. card::
+      :headline: Create a Schema
+      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/define-a-realm-object-model/
+      :icon: /images/icons/realm/realm-lightning.svg
+      :icon-alt: DB Triggers Icon
+      
+      Create a schema for your data by declaring Realm objects in Swift 
+      or Objective-C. 
+
+   .. card::
+      :headline: Open a Realm
+      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/configure-and-open-a-realm/
+      :icon: /images/icons/realm/realm-lightning.svg
+      :icon-alt: DB Triggers Icon
+      
+      Configure and open a realm.  
 
    .. card::
       :headline: Read and Write Objects
@@ -67,6 +101,27 @@ applications. Access data stored in local {+realms+}, or work with
       Register a change listener to react to changes. Live objects and collections
       reduce code to create reactive UIs.
 
+.. important::
+
+   There are special considerations when using {+client-database+} with
+   tvOS. See :ref:`ios-tvos` for more information.
+
+MongoDB Realm Application Services with the Swift SDK
+-----------------------------------------------------
+
+.. card-group::
+   :style: extra-compact
+   :columns: 2
+
+      .. card::
+      :headline: Explore Quick Start Guides
+      :url: https://docs.mongodb.com/realm/sdk/swift/quick-start/
+      :icon: /images/icons/realm/realm-mobile.svg
+      :icon-alt: Realm Mobile Icon
+      
+      :card-ref:`Realm with Sync <ios-client-quick-start-with-sync>`
+      :card-ref:`Realm + SwiftUI <ios-swiftui-quick-start>`
+
    .. card::
       :headline: Sync Data Between Devices and Cloud
       :url: https://docs.mongodb.com/realm/sdk/swift/fundamentals/realm-sync/
@@ -75,7 +130,7 @@ applications. Access data stored in local {+realms+}, or work with
       
       Use Realm Sync to share data between devices, or back up data to the
       Cloud. Let us handle network status and user management.
-   
+
    .. card::
       :headline: Manage Users
       :url: https://docs.mongodb.com/realm/sdk/swift/examples/work-with-users/
@@ -85,108 +140,14 @@ applications. Access data stored in local {+realms+}, or work with
       Realm Sync Apps provide user management. Learn how to create, authenticate,
       and delete users. Add custom data to user objects.
 
-.. seealso::
-
-   Are you looking for information about using Swift with MongoDB in a 
-   backend app, command-line utility, or running on macOS or Linux? See 
-   the :driver:`MongoDB Swift Driver documentation </swift>`.
-
-Get Started
------------
-
-.. list-table::
-   :header-rows: 1
-   :class: index-table
-
-   * - Get Started
-     - Fundamentals
-     - Examples
-     - Realm Apps Examples
-
-   * - :doc:`Install Realm for iOS, macOS, tvOS, and watchOS </sdk/swift/install>`
-
-       :doc:`Quick Start </sdk/swift/quick-start>`
-
-       :doc:`Quick Start with Sync </sdk/swift/quick-start-with-sync>`
-
-       :doc:`Quick Start with SwiftUI </sdk/swift/swiftui>`
-
-       :doc:`Upgrade from Stitch to Realm </sdk/swift/upgrade-from-stitch-to-realm>`
-   
-     - :doc:`Realms </sdk/swift/fundamentals/realms>`
-
-       :doc:`Live Queries </sdk/swift/fundamentals/live-queries>`
-
-       :doc:`Write Transactions </sdk/swift/fundamentals/write-transactions>`
-
-       :doc:`Object Models & Schemas </sdk/swift/fundamentals/object-models-and-schemas>`
-
-     - :doc:`Define a Realm Object Schema </sdk/swift/examples/define-a-realm-object-model>`
-
-       :doc:`Configure & Open a Realm </sdk/swift/examples/configure-and-open-a-realm>`
-
-       :doc:`Read & Write Data </sdk/swift/examples/read-and-write-data>`
-
-       :doc:`React to Changes </sdk/swift/examples/react-to-changes>`
-
-       :doc:`Modify an Object Schema </sdk/swift/examples/modify-an-object-schema>`
-
-     - :doc:`Connect to a Realm Backend App </sdk/swift/examples/connect-to-a-mongodb-realm-backend-app>`
-
-       :doc:`Authenticate Users </sdk/swift/examples/users/authenticate-users>`
-
-       :doc:`Sync Changes Between Devices </sdk/swift/examples/sync-changes-between-devices>`
-
-       :doc:`Call a Function </sdk/swift/examples/call-a-function>`
-
-       :doc:`Manage Email/Password Users </sdk/swift/examples/users/manage-email-password-users>`
-
-       :doc:`Query MongoDB </sdk/swift/examples/mongodb-remote-access>`
-
-App Services
-------------
-
-When you create a {+app+}, you get access to a variety of services to streamline
-app development:
-
-- :ref:`User management <ios-authenticate-users>`: built-in user management to enable account 
-  creation and authentication
-- :ref:`Functions <ios-call-a-function>`: define and execute server-side logic
-- :ref:`Triggers <triggers>`: react to events or define a schedule to execute 
-  automated processes
-
-OS Support
-----------
-
-.. list-table::
-   :header-rows: 1
-   :stub-columns: 1
-   :class: index-table
-
-   * - Supported OS
-     - Realm Database
-     - Realm Apps
-
-   * - iOS 9.0+ (iOS 11+ if using Swift Package Manager)
-     - X
-     - X
-
-   * - macOS 10.9+ (macOS 10.10+ if using Swift Package Manager)
-     - X
-     - X
-   
-   * - tvOS 9.0+
-     - X
-     - X
-
-   * - watchOS 2.0+
-     - X
-     - 
-
-.. important::
-
-   There are special considerations when using {+client-database+} with
-   tvOS. See :ref:`ios-tvos` for more information.
+   .. card::
+      :headline: Call Server Functions
+      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/call-a-function/
+      :icon: /images/icons/realm/user-authorization.svg
+      :icon-alt: User Auth Icon
+      
+      Call functions in your Realm Application from your client application 
+      using Realm Swift SDK.
 
 .. important::
 
