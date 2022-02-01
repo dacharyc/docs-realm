@@ -113,7 +113,7 @@ MongoDB Realm Application Services with the Swift SDK
    :style: extra-compact
    :columns: 2
 
-      .. card::
+   .. card::
       :headline: Explore Quick Start Guides
       :url: https://docs.mongodb.com/realm/sdk/swift/quick-start/
       :icon: /images/icons/realm/realm-mobile.svg
