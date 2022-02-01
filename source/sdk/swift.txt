@@ -44,8 +44,8 @@ Realm Database with the Swift SDK
    .. card::
       :headline: Explore Quick Start Guides
       :url: https://docs.mongodb.com/realm/sdk/swift/quick-start/
-      :icon: /images/icons/realm/realm-mobile.svg
-      :icon-alt: Realm Mobile Icon
+      :icon: /images/icons/realm/ios.svg
+      :icon-alt: Realm iOS Icon
       
       :card-ref:`Realm Database <ios-client-quick-start>`
       :card-ref:`Realm + SwiftUI <ios-swiftui-quick-start>`
@@ -53,33 +53,33 @@ Realm Database with the Swift SDK
    .. card::
       :headline: Add the Realm Swift SDK to Your App
       :url: https://docs.mongodb.com/realm/sdk/swift/ios-install/
-      :icon: /images/icons/realm/realm-lightning.svg
-      :icon-alt: DB Triggers Icon
+      :icon: /images/icons/realm/cross-platform.svg
+      :icon-alt: Realm Cross-Platform Devices Icon
       
       Add the Realm Swift SDK to your iOS, macOS, tvOS, or watchOS project. 
 
    .. card::
       :headline: Create a Schema
-      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/define-a-realm-object-model/
-      :icon: /images/icons/realm/realm-lightning.svg
-      :icon-alt: DB Triggers Icon
+      :url: https://docs.mongodb.com/realm/sdk/swift/examples/define-a-realm-object-model/
+      :icon: /images/icons/realm/realm-db.svg
+      :icon-alt: Realm DB Icon
       
       Create a schema for your data by declaring Realm objects in Swift 
       or Objective-C. 
 
    .. card::
       :headline: Open a Realm
-      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/configure-and-open-a-realm/
+      :url: https://docs.mongodb.com/realm/sdk/swift/examples/configure-and-open-a-realm/
       :icon: /images/icons/realm/realm-lightning.svg
-      :icon-alt: DB Triggers Icon
+      :icon-alt: Realm Lightning Icon
       
       Configure and open a realm.  
 
    .. card::
       :headline: Read and Write Objects
       :url: https://docs.mongodb.com/realm/sdk/swift/examples/read-and-write-data/
-      :icon: /images/icons/realm/realm-lightning.svg
-      :icon-alt: DB Triggers Icon
+      :icon: /images/icons/realm/data-access-control.svg
+      :icon-alt: Data Access Control Icon
       
       Read and write data as objects. Create new objects as you would 
       instantiate any other object. 
@@ -87,19 +87,28 @@ Realm Database with the Swift SDK
    .. card::
       :headline: Query Realm Database
       :url: https://docs.mongodb.com/realm/sdk/swift/examples/filter-data/
-      :icon: /images/icons/realm/data-access-control.svg
-      :icon-alt: Data Access Controls Icon
+      :icon: /images/icons/realm/fast-data.svg
+      :icon-alt: Fast Data Icon
       
       Query for for stored objects using Swift-idiomatic queries.
 
    .. card::
       :headline: React to Changes
       :url: https://docs.mongodb.com/realm/sdk/swift/examples/react-to-changes/
-      :icon: /images/icons/realm/triggers-1.svg
-      :icon-alt: Realm Database Icon
+      :icon: /images/icons/realm/automated-conflict-resolution.svg
+      :icon-alt: Automated Conflict Resolution Icon
       
       Register a change listener to react to changes. Live objects and collections
       reduce code to create reactive UIs.
+
+   .. card::
+      :headline: Explore Data Types
+      :url: https://docs.mongodb.com/realm/sdk/swift/data-types/supported-property-types/
+      :icon: /images/icons/realm/realm-mobile.svg
+      :icon-alt: Realm Mobile Icon
+      
+      Explore the data types that Realm supports. Use Type Projection to map
+      types to supported Realm data types.
 
 .. important::
 
@@ -116,8 +125,8 @@ MongoDB Realm Application Services with the Swift SDK
    .. card::
       :headline: Explore Quick Start Guides
       :url: https://docs.mongodb.com/realm/sdk/swift/quick-start/
-      :icon: /images/icons/realm/realm-mobile.svg
-      :icon-alt: Realm Mobile Icon
+      :icon: /images/icons/realm/mobile-sync.svg
+      :icon-alt: Realm Mobile Sync Icon
       
       :card-ref:`Realm with Sync <ios-client-quick-start-with-sync>`
       :card-ref:`Realm + SwiftUI <ios-swiftui-quick-start>`
@@ -125,8 +134,8 @@ MongoDB Realm Application Services with the Swift SDK
    .. card::
       :headline: Sync Data Between Devices and Cloud
       :url: https://docs.mongodb.com/realm/sdk/swift/fundamentals/realm-sync/
-      :icon: /images/icons/realm/mobile-sync.svg
-      :icon-alt: Realm Mobile Sync Icon
+      :icon: /images/icons/realm/realm-sync.svg
+      :icon-alt: Realm Sync Icon
       
       Use Realm Sync to share data between devices, or back up data to the
       Cloud. Let us handle network status and user management.
@@ -142,9 +151,9 @@ MongoDB Realm Application Services with the Swift SDK
 
    .. card::
       :headline: Call Server Functions
-      :url: https://docs-mongodbcom-staging.corp.mongodb.com/realm/sdk/swift/examples/call-a-function/
-      :icon: /images/icons/realm/user-authorization.svg
-      :icon-alt: User Auth Icon
+      :url: https://docs.mongodb.com/realm/sdk/swift/examples/call-a-function/
+      :icon: /images/icons/realm/functions.svg
+      :icon-alt: Realm Functions Icon
       
       Call functions in your Realm Application from your client application 
       using Realm Swift SDK.
