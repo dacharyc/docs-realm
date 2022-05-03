@@ -1,0 +1,12 @@
+========================
+Page Designs - Swift SDK
+========================
+
+.. toctree::
+   :titlesonly:
+   
+   Integrated Concept & Code Examples </sdk/swift/page-designs/integrated-concept-and-code-examples>
+   TLDR Code Examples, Then Concept </sdk/swift/page-designs/separate-concept-and-code-examples>
+
+- :doc:`Integrated Concept & Code Examples </sdk/swift/page-designs/integrated-concept-and-code-examples>`
+- :doc:`TLDR Code Examples, Then Concept </sdk/swift/page-designs/separate-concept-and-code-examples>`

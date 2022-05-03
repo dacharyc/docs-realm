@@ -7,6 +7,7 @@ MongoDB Realm Swift SDK
 .. toctree::
    :titlesonly:
    
+   Page Designs </sdk/swift/page-designs>
    Install Realm for iOS, macOS, tvOS, and watchOS </sdk/swift/install>
    Quick Starts </sdk/swift/quick-start-index>
    Fundamentals </sdk/swift/fundamentals>
