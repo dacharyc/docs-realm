@@ -60,59 +60,6 @@ Related Reading
 
 - :ref:`ios-separated-example-explain-define-a-new-object-type`
 
-.. _ios-separated-example-declare-a-property:
-
-Declare Properties
-~~~~~~~~~~~~~~~~~~
-
-.. tabs::
-
-   .. tab:: Swift
-      :tabid: swift
-
-      When declaring non-generic properties, use the ``@Persisted`` annotation. 
-      The ``@Persisted`` attribute turns Realm model properties into accessors 
-      for the underlying database data.
-
-   .. tab:: Objective C
-      :tabid: objective-c
-
-      Declare properties on your object type as you would on a normal
-      Objective-C interface.
-      
-      In order to use your interface in a Realm array, pass your
-      interface name to the ``RLM_ARRAY_TYPE()`` macro. You can put this
-      at the bottom of your interface's header file. The
-      ``RLM_ARRAY_TYPE()`` macro creates a protocol that allows you to
-      tag :objc-sdk:`RLMArray <Classes/RLMArray.html>` with your type:
-
-      .. literalinclude:: /examples/generated/code/start/ObjectModels.codeblock.array-declaration.m
-         :language: objectivec
-   
-   .. tab:: Swift pre-10.10.0
-      :tabid: swift-pre-10.10.0
-
-      When declaring non-generic properties, use the ``@objc dynamic
-      var`` annotation. The ``@objc dynamic var`` attribute turns Realm
-      model properties into accessors for the underlying database data.
-      If the class is declared as ``@objcMembers`` (Swift 4 or later),
-      you can declare properties as ``dynamic var`` without ``@objc``.
-
-      To declare properties of generic types ``LinkingObjects``,
-      ``List``, and ``RealmProperty``, use ``let``. Generic properties
-      cannot be represented in the Objective‑C runtime, which
-      {+client-database+} uses for dynamic dispatch of dynamic
-      properties.
-
-.. note::
-
-   Property names are limited to a maximum of 63 UTF-8 characters.
-
-Related Reading
-```````````````
-
-- :ref:`ios-separated-example-explain-declare-a-property`
-
 .. _ios-separated-example-specify-an-optional-required-property:
 
 Specify an Optional/Required Property
@@ -501,7 +448,7 @@ Related Reading
 
 .. _ios-separated-example-explain-declare-a-property:
 
-Explain: Declare Properties
+Concept: Declare Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you declare the property attributes of a class, you can specify whether
@@ -631,7 +578,7 @@ Related Reading
 .. _ios-separated-example-declare-relationship-properties:
 
 Concept: Relationship Properties
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {+client-database+} allows you to define explicit relationships between 
 objects. A relationship is an object property that references another 

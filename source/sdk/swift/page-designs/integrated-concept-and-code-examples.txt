@@ -23,8 +23,7 @@ and relationships of those objects. Every {+realm+} has a schema that
 consists of one or more object schemas describing the different forms of
 object that can be stored in that {+realm+}.
 
-Related Reading
-```````````````
+**Related Reading**
 
 - :ref:`Supported Data Types <ios-supported-property-types>`
 - Glossary: :term:`Realm objects <Realm object>`
