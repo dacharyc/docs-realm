@@ -28,6 +28,7 @@ Welcome to the Atlas Device SDK Docs
    Realm Query Language </realm-query-language>
    Realm Example Projects </example-projects>
    Get Help </help>
+   Glossary </glossary>
 
 .. introduction::
 

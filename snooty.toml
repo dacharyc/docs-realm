@@ -95,6 +95,29 @@ log-retention-time = "10 days"
 sync = "Atlas Device Sync"
 sync-short = "Device Sync"                                                                  # feature/product name, NOT verb
 
+realm = "realm"
+realms = "realms"
+client-database = "Realm Database"
+client-db-short = "Realm"
+atlas = "MongoDB Atlas"
+atlas-short = "Atlas"
+compass = "MongoDB Compass"
+compass-short = "Compass"
+charts = "MongoDB Charts"
+charts-short = "Charts"
+service = "Realm"                                                                                         # product (backend + sdks)
+service-short = "Realm"                                                                                   # use as shorthand, AND as a prefix for features
+backend = "Atlas App Services"
+backend-short = "App Services"
+backend-schema = "Realm Schema"
+frontend-schema = "Realm Object Model"
+cli-bin = ":binary:`realm-cli`"                                                                           # binary -- DO NOT USE IN LINKS! Will break them.
+cli = "Realm CLI"
+ui = "Realm UI"
+app = "App"
+leftnav = "left navigation menu"
+encrypted-interprocess-sharing-error-message = "Encrypted interprocess sharing is currently unsupported."
+
 # Realm Rebrand announcement for .local London
 [[banners]]
 targets = ["*"]
