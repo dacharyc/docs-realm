@@ -1,4 +1,4 @@
-.. tabs-realm-languages::
+.. tabs-drivers::
 
    tabs:
      - id: java
@@ -26,7 +26,7 @@
          .. literalinclude:: /examples/generated/code/start/CreateRealmObjects.snippet.create.swift
             :language: swift
 
-     - id: objective-c
+     - id: objectivec
        content: |
 
          .. literalinclude:: /examples/generated/code/start/ReadWriteData.snippet.create.m
@@ -50,7 +50,7 @@
          .. literalinclude:: /examples/generated/react-native/ts/create-test.test.snippet.create-to-one-schema.tsx
             :language: typescript
 
-     - id: c-sharp
+     - id: csharp
        content: |
 
          .. literalinclude:: /examples/generated/dotnet/QuickStartExamples.snippet.create.cs

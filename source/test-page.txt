@@ -2,12 +2,12 @@
 Tab Selector Test Page
 ======================
 
-.. tabs-selector:: realm-languages
+.. tabs-selector:: drivers
 
 Just a test page to see if we can successfully use the language selector
 drop-down menu with the Realm SDKs tabs.
 
-.. tabs-realm-languages::
+.. tabs-drivers::
 
    .. tab::
       :tabid: java
@@ -35,7 +35,7 @@ drop-down menu with the Realm SDKs tabs.
       inside of a write transaction.
 
    .. tab::
-      :tabid: objective-c
+      :tabid: objectivec
 
       Some Objective-C examples here.
 
@@ -59,7 +59,7 @@ drop-down menu with the Realm SDKs tabs.
       Some Typescript examples here.
 
    .. tab::
-      :tabid: c-sharp
+      :tabid: csharp
 
       Some C-Sharp examples here.
 
