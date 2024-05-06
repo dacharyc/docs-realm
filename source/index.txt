@@ -13,6 +13,7 @@ Welcome to the Atlas Device SDK Docs
    :titlesonly:
    :hidden:
 
+   Test Page </test-page>
    Introduction </introduction>
    C++ SDK </sdk/cpp>
    Flutter SDK </sdk/flutter>
