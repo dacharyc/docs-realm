@@ -56,12 +56,16 @@ drop-down menu with the Realm SDKs tabs.
    .. tab::
       :tabid: typescript
 
-      Some TYpescript examples here.
+      Some Typescript examples here.
 
    .. tab::
       :tabid: c-sharp
 
+      Some C-Sharp examples here.
+
    .. tab::
       :tabid: kotlin
+
+      Some Kotlin examples here.
 
 .. include:: /includes/sdk-examples/crud-create.rst
