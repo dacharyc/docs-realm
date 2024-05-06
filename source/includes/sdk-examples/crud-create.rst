@@ -6,8 +6,6 @@
 
          .. literalinclude:: /examples/generated/java/sync/ProjectTask.snippet.projecttask.java
             :language: java
-            :caption: ProjectTask.java
-            :copyable: false
 
      - id: cpp
        content: |
@@ -38,3 +36,22 @@
        content: |
 
          .. literalinclude:: /examples/generated/flutter/read_write_data_test.snippet.create-object.dart
+            :language: dart
+
+     - id: kotlin
+       content: |
+
+         .. literalinclude:: /examples/generated/kotlin/CreateTest.snippet.create-new-realm-object.kt
+            :language: kotlin
+
+     - id: typescript
+       content: |
+
+         .. literalinclude:: /examples/generated/react-native/ts/create-test.test.snippet.create-to-one-schema.tsx
+            :language: typescript
+
+     - id: c-sharp
+       content: |
+
+         .. literalinclude:: /examples/generated/dotnet/QuickStartExamples.snippet.create.cs
+            :language: csharp
