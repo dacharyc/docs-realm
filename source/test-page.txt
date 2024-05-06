@@ -53,4 +53,15 @@ drop-down menu with the Realm SDKs tabs.
       to the database in a write transaction block with
       :flutter-sdk:`Realm.add() <realm/Realm/add.html>`.
 
+   .. tab::
+      :tabid: typescript
+
+      Some TYpescript examples here.
+
+   .. tab::
+      :tabid: c-sharp
+
+   .. tab::
+      :tabid: kotlin
+
 .. include:: /includes/sdk-examples/crud-create.rst
