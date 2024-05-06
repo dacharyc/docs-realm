@@ -14,27 +14,64 @@ drop-down menu with the Realm SDKs tabs.
 
       Some Java examples here.
 
+      .. literalinclude:: /examples/generated/java/sync/ProjectTask.snippet.projecttask.java
+         :language: java
+         :caption: ProjectTask.java
+         :copyable: false
+
+      .. literalinclude:: /examples/generated/java/sync/Project.snippet.project.java
+         :language: java
+         :caption: Project.java
+         :copyable: false
+
    .. tab::
       :tabid: cpp
 
       Some C++ examples here.
 
+      .. literalinclude:: /examples/generated/cpp/crud.snippet.create-an-object.cpp
+         :language: cpp
+
    .. tab::
       :tabid: javascript
 
-      Some Javascript examples here.
+      .. literalinclude:: /examples/generated/node/read-and-write-data.snippet.read-and-write-create-a-new-object.js
+         :language: javascript
+         :emphasize-lines: 6
 
    .. tab::
       :tabid: swift
 
       Some Swift examples here.
 
+      To add an object to a realm, instantiate it as you would any other
+      object and then pass it to :swift-sdk:`Realm.add(_:update:)
+      <Structs/Realm.html#/s:10RealmSwift0A0V3add_6updateySo0aB6ObjectC_AC12UpdatePolicyOtF>`
+      inside of a write transaction.
+
+      .. literalinclude:: /examples/generated/code/start/CreateRealmObjects.snippet.create.swift
+         :language: swift
+
    .. tab::
       :tabid: objective-c
 
       Some Objective-C examples here.
 
+      To add an object to a realm, instantiate it as you would any other
+      object and then pass it to :objc-sdk:`-[RLMRealm addObject:]
+      <Classes/RLMRealm.html#/c:objc(cs)RLMRealm(im)addObject:>` inside
+      of a write transaction.
+
+      .. literalinclude:: /examples/generated/code/start/ReadWriteData.snippet.create.m
+         :language: objectivec
+
    .. tab::
       :tabid: dart
 
       Some Dart examples here.
+
+      To add an object to the database, pass an instance of a Realm object class
+      to the database in a write transaction block with
+      :flutter-sdk:`Realm.add() <realm/Realm/add.html>`.
+
+      .. literalinclude:: /examples/generated/flutter/read_write_data_test.snippet.create-object.dart
