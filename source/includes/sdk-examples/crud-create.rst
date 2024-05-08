@@ -49,3 +49,8 @@
 
          .. literalinclude:: /examples/generated/dotnet/QuickStartExamples.snippet.create.cs
             :language: csharp
+
+     - id: kotlin
+       content: |
+
+         No code example available at this time.
