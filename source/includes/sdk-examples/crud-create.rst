@@ -50,7 +50,7 @@
          .. literalinclude:: /examples/generated/dotnet/QuickStartExamples.snippet.create.cs
             :language: csharp
 
-     - id: kotlin
+     - id: typescript
        content: |
 
          No code example available at this time.
