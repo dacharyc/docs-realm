@@ -44,12 +44,6 @@
          .. literalinclude:: /examples/generated/kotlin/CreateTest.snippet.create-new-realm-object.kt
             :language: kotlin
 
-     - id: typescript
-       content: |
-
-         .. literalinclude:: /examples/generated/react-native/ts/create-test.test.snippet.create-to-one-schema.tsx
-            :language: typescript
-
      - id: csharp
        content: |
 
